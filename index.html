@@ -8,9 +8,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-md5@0.7.3/build/md5.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/xmas_challenge/static/pages/styles.css" crossorigin="anonymous">
     <link rel="icon" type="image/png" sizes="32x32" href="/xmas_challenge/static/pages/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/xmas_challenge/static/pages/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/xmas_challenge/static/pages/favicon-16x16.png">
+    
     <title>Wokingham Library Code Club</title>
 </head>
 
@@ -26,10 +28,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="/xmas_challenge/">Home</a></li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="/xmas_challenge/xmas_challenge_2020/">Python Christmas Challenge 2020</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/xmas_challenge/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id='xmas-challenge-2023-navlink' href="/xmas_challenge/xmas_challenge_2023/">Python Christmas Challenge 2023</a>
+                    </li>
                 </ul>
                 
             </div>
@@ -38,11 +42,8 @@
         <div id="content">
             
 <p class="lead" style="padding-top: 20px">
-    This is the new website for the wokingham library code club. It does not have much content at the moment but we hope
+    This is the website for the wokingham library code club. It does not have much content at the moment but we hope
     to add to it as times goes by.
-</p>
-<p class="lead" style="padding-top: 20px">
-    The first addition to the site will be the 2020 python christmas challenge!
 </p>
 
         </div>
