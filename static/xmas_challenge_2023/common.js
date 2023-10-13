@@ -28,7 +28,7 @@ function deleteCookie(name) {
 }
 
 function askForUserName() {
-    return window.prompt("Please enter a userame:", "");
+    return window.prompt("Please enter a username:", "");
 }
 
 const COOKIES = {
